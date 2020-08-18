@@ -1,9 +1,9 @@
-import express from "express";
+import express from 'express'
 
-const server = express();
+const server = express()
 
-server.get("/", (request, response) => {
-  return response.send("Hello!");
-});
+server.get('/', (request, response) => {
+  return response.send('Hello!')
+})
 
-export default server;
+export default server

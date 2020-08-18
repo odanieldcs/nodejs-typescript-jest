@@ -1,3 +1,3 @@
-import server from "./server";
+import server from './server'
 
-server.listen(8001);
+server.listen(8001)
